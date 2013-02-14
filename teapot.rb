@@ -3,7 +3,7 @@
 #  This file is part of the "Teapot" project, and is released under the MIT license.
 #
 
-required_version "0.5"
+required_version "0.6"
 
 define_target "opengl3-headers" do |target|
 	target.install do |environment|

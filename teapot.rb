@@ -6,7 +6,7 @@
 required_version "0.6"
 
 define_target "opengl3-headers" do |target|
-	target.install do |environment|
+	target.build do |environment|
 		config = environment.flatten
 		
 		include_path = File.expand_path("../include", __FILE__)
